@@ -1,3 +1,24 @@
+# EmotionDetector-RealTime
+
+## Overview
+EmotionDetector-RealTime is a web application that uses deep learning to detect and classify human emotions in real-time. Users can either capture their emotions via a webcam or upload a photo to analyze. The application leverages a convolutional neural network (CNN) to accurately detect faces and predict emotions, displaying the predicted emotion directly on the user's face in the webcam feed or based on the uploaded photo.
+
+## Features
+- **Real-Time Emotion Detection:** Capture emotions using your webcam or upload a photo for analysis.
+- **Emotion Prediction:** The app supports multiple emotions including Happy, Sad, Angry, Neutral, and more.
+- **Face Detection:** Uses OpenCV's face detection to locate faces in the input.
+- **Deep Learning:** Built with a custom CNN model trained to recognize facial expressions.
+
+## Getting Started
+
+### Prerequisites
+- Python 3.x
+- Flask
+- React.js
+- OpenCV
+- Keras
+- Numpy
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
